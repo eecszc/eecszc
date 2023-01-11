@@ -1,8 +1,4 @@
-<html>
-<!--
-<script title="这是划词翻译注入的脚本，用于解决在监听了 message 事件的页面导致异常的问题，详情见 https://github.com/lmk123/crx-selection-translate/issues/1150">(function e(){function e(){const e=[];return{paramsArr:e,theOnlyOneHandler:n=>{const t=n.data;if("string"!=typeof t||!t.startsWith(r))for(let t=e.length-1;t>=0;t--){const{handler:r,options:o}=e[t];"function"==typeof r?r.call(window,n):r.handleEvent(n),"object"==typeof o&&o.once&&e.splice(t,1)}}}}const n=e(),t=e(),r="greetings from hcfy:";let o=null;const s=e=>{if(n.theOnlyOneHandler(e),o){const n=e.data;if("string"==typeof n&&n.startsWith(r))return;o.call(window,e)}};window.addEventListener("message",s),window.addEventListener("message",t.theOnlyOneHandler,!0);const i=window.addEventListener,a=window.removeEventListener;window.addEventListener=function(e,r,o){if("message"!==e)return i.call(window,e,r,o);const s=("object"==typeof o?o.capture:o)?t.paramsArr:n.paramsArr;if(s.some((e=>e.handler===r)))return;const a={handler:r,options:o};s.push(a),"object"==typeof o&&o.signal&&o.signal.addEventListener("abort",(()=>{const e=s.indexOf(a);e>=0&&s.splice(e,1)}))},window.removeEventListener=function(e,r,o){if("message"!==e)return a.call(window,e,r,o);const s=("object"==typeof o?o.capture:o)?t.paramsArr:n.paramsArr,i=s.findIndex((e=>e.handler===r));i>=0&&s.splice(i,1)};const d=Object.getOwnPropertyDescriptor(window,"onmessage")||{configurable:!0,enumerable:!0,value:null};return Object.defineProperty(window,"onmessage",{enumerable:!0,configurable:!0,get:()=>o,set(e){o="function"==typeof e?e:null}}),()=>{window.addEventListener=i,window.removeEventListener=a,window.removeEventListener("message",s),window.removeEventListener("message",t.theOnlyOneHandler,!0),n.paramsArr.forEach((({handler:e,options:n})=>{window.addEventListener("message",e,n)})),t.paramsArr.forEach((({handler:e,options:n})=>{window.addEventListener("message",e,n)})),Object.defineProperty(window,"onmessage",d),window.onmessage=o}})()</script>
--->
-<head>
+<html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=350, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0, user-scalable=no;">
 <meta http-equiv="pragma" content="no-cache">
@@ -11,6 +7,11 @@
 <title>郑州大学数据中台2021</title>
 <link rel="stylesheet" type="text/css" href="https://jksb.v.zzu.edu.cn/imagesss/_xwss_2017.css"><style>
 #bak_0 {MARGIN:0 auto; left: 0;WIDTH: 350px; min-HEIGHT:540px;}
+.hes1{width:165px;height:100%;line-height:20px;font-size:14px;color:#008a24;text-align:center;background-color:#a3fdba;float:left;border-radius:10px;}
+.hes2{width:165px;height:100%;line-height:20px;font-size:14px;color:#909;text-align:center;background-color:#c4c4c4;float:left;border-radius:10px;}
+.yim1{width:165px;height:100%;line-height:20px;font-size:14px;color:#005ddc;text-align:center;background-color:#bad7ff;float:left;border-radius:10px;}
+.yim2{width:165px;height:100%;line-height:20px;font-size:14px;color:#909;text-align:center;background-color:#c4c4c4;float:left;border-radius:10px;}
+.bar916{width:100%;height:36px;line-height:18px;font-size:12px;color:#777;text-align:center}
 
 </style>
 <script language="javascript">
@@ -41,48 +42,66 @@ if ((tt1 % 2)==1){
   document.getElementById("tim317").innerHTML=tt3+"分"+tt2+"秒";
   }else{document.getElementById("tim317").innerHTML="已作废";}
 }
+function reloadwin916(){
+  document.getElementById("msg11b").innerHTML="正在获取郑好办防疫信息...";
+  document.getElementById("zzj_fun_916s").src="/vls6sss/zzujksb.dll/getzhbofmen?ptopid=t226FC1F724BC4969A5E05B875812931A&sid=230111222412906901";
+}
+
 </script>
-<style>hcfy-result.__hcfy__result__loaded__.__hcfy__result__both__{border: 1px dotted}</style></head>
+</head>
 <body>
-
+<form method="POST" name="myform52" action="">
 <div id="bak_0">  
-  <div style="WIDTH: 100%; HEIGHT: 102px;background:url(https://jksb.v.zzu.edu.cn/imagesss/title316_44087.png);">
-  	<div style="width:100%;height:32px;line-height:32px;text-align:right">
-  		<a href="https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/logout?ptopid=t41F788684C374578BCBA857EF0B87DF9">
-  			<span style="color:#00c;">〖切换账号〗</span>
-  		</a>　
-  	</div>
-  </div>
-
+  <div style="width:100%;height:88px;background:url(/imagesss/title316_62052.png);"></div>
   <div style="width:100%;height:7px;BACKGROUND-IMAGE: url(https://jksb.v.zzu.edu.cn/images/split5.png)"></div>
+  <div style="width:100%; min-height:90px;">
+    <div style="width:100%;height:6px;text-align:left;"></div>
+    <div style="width:100%;min-height:26px;line-height:26px;font-size:16px;color:#00c;font-weight:500;font-family:黑体;BACKGROUND-IMAGE:url(https://jksb.v.zzu.edu.cn/imagesss/sf_shi4.png)">
+      <span style="color:#00a">化学学院.曾方成</span>　
+      <a href="/vls6sss/zzujksb.dll/logout?ptopid=t226FC1F724BC4969A5E05B875812931A">
+        <span style="font-size:12px;;color:#00c;">〖切换账号〗</span>
+      </a>
+      <br>主校区大门东门.
+      <span style="background-color:#070;color:#ff0">入口</span>
+      <br>身份：在编教职工
+      <span id=ymd style="font-size:12px;color:#333;">
+        <script>      
+          var date = new Date();
+            var m = date.getMonth()+1;
+            var d = date.getDate(); 
+            var h = date.getHours();
+      if (h<10)
+      {
+        h="0"+h;
+      }
+            var min = date.getMinutes();
+            if (min<10)
+            {
+              document.getElementById("ymd").innerHTML = "(" + m+"月"+d+"日 "+h+":"+"0"+min+"获取)";
+            }
+            else
+            {
+              document.getElementById("ymd").innerHTML = "(" +m+"月"+d+"日 "+h+":"+min+"获取)";
+            }
 
-  <div style="WIDTH: 100%; min-HEIGHT: 90px;">
-	<div style="width:100%;min-height:26px;line-height:26px;font-size:18px;color:#00c;font-weight:500;font-family:黑体;BACKGROUND-IMAGE:url(https://jksb.v.zzu.edu.cn/imagesss/sf_shi4.png)">
-		<span style="color:#00a">　化学学院.曾方成</span>
-		<br>　主校区大门东门.
-		<span style="background-color:#070;color:#ff0">入口</span>
-		<br>　身份：在编教职工<br>
-		<span style="font-size:12px;color:#666">关注“郑州大学网络管理中心”微信公众号可提醒健康打卡</span>
-	</div>
-  </div>
-
-  <div style="width: 100%; height: 25px; background-color: rgb(0, 153, 0);" id="bian92a"></div>
-
-  <div style="width:100%;height:300px;">
-  	<div style="width: 25px; height: 100%; background-color: rgb(0, 153, 0); float: left;" id="bian92b1"></div>
-  	<div style="width:300px;height:100%;float:left;text-align:center;">
-  		<img src="./zc.jpg" style="height:300px;border:0px;">
-  	</div>
-  	<div style="width: 25px; height: 100%; background-color: rgb(0, 153, 0); float: right;" id="bian92b2"></div>
-  </div>
-
-  <div style="width: 100%; height: 25px; background-color: rgb(0, 153, 0);" id="bian92c"></div>
-  <div style="width:100%;height:7px;BACKGROUND-IMAGE: url(https://jksb.v.zzu.edu.cn/images/split5.png)"></div>
-  <div style="width:100%;min-height:18px;line-height:18px;font-size:12px;color:#666;text-align:center">郑州大学疫情防控领导小组、保卫处、信息化办公室</div>
-  <div style="width:100%;height:18px;line-height:18px;font-size:12px;color:#666;text-align:center" id="msg11">定位：河南省郑州市中原区迎春街附近　（<span style="color:#009900">扫码在设定区域内</span>）</div>
+        </script></span><br>　</div></div>
+<div style="width: 100%; height: 15px; background-color: rgb(0, 153, 0);" id="bian92a"></div>
+<div style="width:100%;height:280px;">
+<div style="width: 15px; height: 100%; background-color: rgb(0, 153, 0); float: left;" id="bian92b1"></div>
+<div style="width:320px;height:100%;float:left;text-align:center;">
+<img src="https://xwss6.v.zzu.edu.cn/teap3/2/270A8E444C28453C9EB4FC8A2262CCCB.jpg?sid=230111222412890828" style="height:280px;border:0px;" id="img916">
+</div>
+<div style="width: 14px; height: 100%; background-color: rgb(0, 153, 0); float: right;" id="bian92b2"></div>
+</div>
+<div style="width: 100%; height: 15px; background-color: rgb(0, 153, 0);" id="bian92c"></div>
+<div style="width:100%;height:7px;BACKGROUND-IMAGE: url(https://jksb.v.zzu.edu.cn/images/split5.png)"></div><div style="width:100%;height:116px;"><div style="width:100%;height:80px;" id="msg11a"><div class="hes1"><br>不再检测核酸时间</div><div style="width:20px;height:100%;float:left"></div><div class="yim1"><br>新冠疫苗接种<br>3剂次</div><div style="width:2px;height:100%;float:right"></div></div><div class="bar916"><div style="width:50%;height:100%;float:left;font-size:12px;color:#666;line-height:20px;" id="msg11b"></div><div style="width:48%;height:100%;float:right;font-size:12px;color:#666;line-height:20px;" id="msg11c"><span style="color:#00a">定位[未获取到地市详情]附近</span>　<span style="color:#00a">扫码在设定区域内</span></div></div></div><div style="width:100%;height:7px;BACKGROUND-IMAGE: url(https://jksb.v.zzu.edu.cn/images/split5.png)"></div><div style="width:100%;min-height:18px;line-height:18px;font-size:12px;color:#666;text-align:center">郑州大学疫情防控领导小组、保卫处、信息化办公室</div>
 </div>
 
+<div style="width:1px;height:1px;">
+  <iframe name="zzj_fun_426" id="zzj_fun_426s" src="https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/getdipos?ptopid=t226FC1F724BC4969A5E05B875812931A&amp;sid=230111222412906401&amp;fun2=0001" marginwidth="0" marginheight="0" height="100%" width="100%" scrolling="no" border="0" frameborder="0" allowtransparency="true"></iframe>
+</div>
+<input type="hidden" name="ptopid" value="t226FC1F724BC4969A5E05B875812931A"><input type="hidden" name="sid" value="230111222412906178"></form>
 
 <div style="width:100%;height:50px;"></div>
 
-</body><div style="all: initial;"><div id="__hcfy__" style="all: initial;"></div></div><div style="all: initial;"><div style="all: initial;"></div></div></html>
+</body></html>
